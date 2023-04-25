@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     generateRandomPokemon();
-  }, [generateRandomPokemon]);
+  }, []);
 
   function handleClick() {
     generateRandomPokemon();
