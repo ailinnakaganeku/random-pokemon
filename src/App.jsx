@@ -78,7 +78,7 @@ function App() {
         {pokemon ? (
           <div className="text-center">
             <h2
-              className={`text-lg font-bold mb-2${
+              className={`text-lg font-bold mb-2 ${
                 !isDarkMode ? "text-gray-800" : "text-white"
               }`}
             >
