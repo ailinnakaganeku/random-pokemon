@@ -15,7 +15,7 @@ This project was built using:
 To run the project locally, first clone the repository:
 
 ```
-git clone https://github.com/ailinnakaganeku/random-pokemon-.git
+git clone https://github.com/ailinnakaganeku/random-pokemon.git
 ```
 
 Then, navigate to the project directory and install the dependencies:
@@ -33,4 +33,4 @@ npm run dev
 
 ## Credits
 
-This project was created by [Your Name](https://github.com/ailinnakaganeku).
+This project was created by [Ailu](https://github.com/ailinnakaganeku).
