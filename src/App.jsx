@@ -29,7 +29,7 @@ function App() {
         } shadow-md rounded-md p-4 transition-colors duration-500`}
       >
         <div className="flex justify-end items-center mt-4 mb-2">
-          <span className="text-gray-600 mr-2">🌞</span>
+          <span className="mr-2">🌞</span>
           <label
             htmlFor="dark-mode-toggle"
             className="flex items-center cursor-pointer"
@@ -50,7 +50,7 @@ function App() {
               ></div>
             </div>
           </label>
-          <span className="text-gray-600 ml-2">🌚</span>
+          <span className=" ml-2">🌚</span>
         </div>
         <h1
           className={`text-2xl font-bold mb-4 text-center ${
