@@ -57,7 +57,7 @@ function App() {
             !isDarkMode ? "text-gray-800" : "text-white"
           }`}
         >
-          Random Pokemon Generator
+          Random Pokemon
         </h1>
         <div className="flex justify-center items-center">
           <button
