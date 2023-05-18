@@ -24,7 +24,7 @@ function App() {
       } w-screen h-screen flex flex-col justify-center items-center transition-colors duration-500`}
     >
       <div
-        className={`max-w-md w-full  bg-${
+        className={`max-w-md w-full bg-${
           isDarkMode ? "gray-800" : "white"
         } shadow-md rounded-md p-4 transition-colors duration-500`}
       >
@@ -61,8 +61,8 @@ function App() {
         </h1>
         <div className="flex justify-center items-center">
           <button
-            className={`bg-blue-500  hover:bg-blue-600 text-white	font-bold py-2 px-4 rounded-md mb-4  transition-colors duration-500 ${
-              isLoading && "opacity-50 cursor-not-allowed "
+            className={`bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-md mb-4 transition-colors duration-500 ${
+              isLoading && "opacity-50 cursor-not-allowed"
             }`}
             onClick={handleClick}
             disabled={isLoading}
